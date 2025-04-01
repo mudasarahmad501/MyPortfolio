@@ -1,8 +1,26 @@
 import React from 'react';
 import { FiExternalLink, FiGithub } from 'react-icons/fi';
 import tastImage from '../Assets/images/tasty.PNG';
+import travel from '../Assets/images/travel.PNG';
+import recipe from '../Assets/images/recipe.PNG';
 const Projects = () => {
   const projects = [
+    {
+      title: "Food-Recipe website",
+      description: "A full-featured Food Recipe Website with Html, Css. Fetching Recipis data from API's",
+      tags: ["HTML5", "CSS3", "Bootstrap", "JavaScript"],
+      thumbnail: recipe, // Replace with your image path
+      github: "https://github.com/mudasarahmad501/FoodApp",
+      liveDemo: "https://mudasarahmad501.github.io/FoodApp/"
+    },
+    {
+      title: "Travel-Agency website UI",
+      description: "A full-featured Travel Website with Html, Css, Bootstrap and Javascript. Includes cards sliders, cards curesols and UI animations.",
+      tags: ["HTML5", "CSS3", "Bootstrap", "JavaScript", "Figma"],
+      thumbnail: travel, // Replace with your image path
+      github: "https://github.com/mudasarahmad501/travel-agency",
+      liveDemo: "https://mudasarahmad501.github.io/travel-agency/travel.html"
+    },
     {
       title: "Tasty-Food website UI",
       description: "A full-featured Food Website with React and Tailwind CSS. Includes product filtering, cart functionality, and secure checkout.",
@@ -11,6 +29,7 @@ const Projects = () => {
       github: "https://github.com/mudasarahmad501/Tasty-Food",
       liveDemo: "https://mudasarahmad501.github.io/Tasty-Food/"
     }
+    
   ];
 
   return (
