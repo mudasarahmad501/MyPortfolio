@@ -3,6 +3,7 @@ import { FiExternalLink, FiGithub } from 'react-icons/fi';
 import tastImage from '../Assets/images/tasty.PNG';
 import travel from '../Assets/images/travel.PNG';
 import recipe from '../Assets/images/recipe.PNG';
+import song from '../Assets/images/song.PNG';
 const Projects = () => {
   const projects = [
     {
@@ -28,6 +29,14 @@ const Projects = () => {
       thumbnail: tastImage, // Replace with your image path
       github: "https://github.com/mudasarahmad501/Tasty-Food",
       liveDemo: "https://mudasarahmad501.github.io/Tasty-Food/"
+    },
+    {
+      title: "Music Player",
+      description: "A full-featured Music with React and Tailwind CSS. Includes songs filtering, playlist and like functionality with sleek UI",
+      tags: ["React", "Tailwind CSS", "Context API"],
+      thumbnail: song, // Replace with your image path
+      github: "https://github.com/mudasarahmad501/Svibe",
+      liveDemo: "https://mudasarahmad501.github.io/Svibe/"
     }
     
   ];
